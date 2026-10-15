@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Aurora Pro wireless headphones">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e1b4b"/>
+      <stop offset="0.55" stop-color="#4c1d95"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="band" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ede9fe"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="cup" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c4b5fd"/>
+      <stop offset="1" stop-color="#6d28d9"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#c4b5fd" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#c4b5fd" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="400" cy="310" r="250" fill="url(#glow)"/>
+
+  <!-- floating sparkles -->
+  <circle cx="120" cy="110" r="6" fill="#ddd6fe" opacity="0.8"/>
+  <circle cx="690" cy="140" r="9" fill="#ddd6fe" opacity="0.6"/>
+  <circle cx="620" cy="470" r="6" fill="#ddd6fe" opacity="0.7"/>
+  <circle cx="160" cy="470" r="8" fill="#ddd6fe" opacity="0.5"/>
+
+  <!-- headband -->
+  <path d="M205 340 A195 195 0 0 1 595 340" fill="none" stroke="url(#band)" stroke-width="36" stroke-linecap="round"/>
+  <path d="M225 340 A175 175 0 0 1 575 340" fill="none" stroke="#4c1d95" stroke-width="10" stroke-linecap="round" opacity="0.35"/>
+
+  <!-- left ear cup -->
+  <g>
+    <rect x="140" y="300" width="128" height="200" rx="60" fill="url(#cup)" stroke="#ede9fe" stroke-width="9"/>
+    <rect x="164" y="330" width="80" height="140" rx="40" fill="#3b0764" opacity="0.9"/>
+    <rect x="158" y="316" width="52" height="90" rx="26" fill="url(#shine)"/>
+    <circle cx="204" cy="400" r="12" fill="#c4b5fd" opacity="0.9"/>
+  </g>
+
+  <!-- right ear cup -->
+  <g>
+    <rect x="532" y="300" width="128" height="200" rx="60" fill="url(#cup)" stroke="#ede9fe" stroke-width="9"/>
+    <rect x="556" y="330" width="80" height="140" rx="40" fill="#3b0764" opacity="0.9"/>
+    <rect x="550" y="316" width="52" height="90" rx="26" fill="url(#shine)"/>
+    <circle cx="596" cy="400" r="12" fill="#c4b5fd" opacity="0.9"/>
+  </g>
+
+  <!-- caption -->
+  <text x="400" y="565" text-anchor="middle" font-family="Poppins, Helvetica, Arial, sans-serif" font-size="30" font-weight="600" fill="#ede9fe" letter-spacing="6">AURORA PRO</text>
+</svg>
